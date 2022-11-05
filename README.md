@@ -15,22 +15,22 @@ This is how the usernames and passwords of [Acuform](http://testasp.vulnweb.com/
 
 # Dump / Screenshots
 ## Command 1
-<img width="1000" alt="ss" src="assets/1.png">
-<img width="1000" alt="ss" src="assets/2.png">
-<img width="1000" alt="ss" src="assets/3.png">
+<img width="1000" alt="ss" src="screenshots/1.png">
+<img width="1000" alt="ss" src="screenshots/2.png">
+<img width="1000" alt="ss" src="screenshots/3.png">
 
 ## Command 2
-<img width="1000" alt="ss" src="assets/4.png">
-<img width="1000" alt="ss" src="assets/5.png">
+<img width="1000" alt="ss" src="screenshots/4.png">
+<img width="1000" alt="ss" src="screenshots/5.png">
 
 ## Command 3
-<img width="1000" alt="ss" src="assets/6.png">
+<img width="1000" alt="ss" src="screenshots/6.png">
 
 ## Command 4
-<img width="1000" alt="ss" src="assets/7.png">
+<img width="1000" alt="ss" src="screenshots/7.png">
 
 ## Command 5
-<img width="1000" alt="ss" src="assets/8.png">
+<img width="1000" alt="ss" src="screenshots/8.png">
 
 
 
